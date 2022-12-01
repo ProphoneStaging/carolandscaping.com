@@ -824,6 +824,25 @@ function runYourFunctionWhenJQueryIsLoaded(fn) {
                                 
                             </div>
                         
+                            <div
+                                class="relative flex items-center"
+                                x-trap.inert="desktopOpen"
+                                x-data="{ desktopOpen: false }"
+                                @keydown.escape.stop="desktopOpen = false"
+                                @click.away="desktopOpen = false"
+                            >
+                                
+                                    <a
+                                        href=" blog "
+                                        class=" border-secondary hover:border-gray-300  group pb-5 pt-6 inline-flex items-center px-1 transition text-sm font-medium  text-gray-500  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2 uppercase"
+                                    >
+                                        Blog 
+                                    </a>
+                                
+                                
+                                
+                            </div>
+                        
                         
 
                     </div>
@@ -1013,6 +1032,17 @@ function runYourFunctionWhenJQueryIsLoaded(fn) {
                                         href=" reviews "
                                         class="text-gray-500 block px-3 py-2 text-base font-medium rounded-md border-secondary transition uppercase"
                                         >Reviews</a
+                                    >
+                                
+                                
+                            </div>
+                        
+                            <div x-trap.inert="openMenu == 'navitem_7'">
+                                
+                                    <a
+                                        href=" blog "
+                                        class="text-gray-500 block px-3 py-2 text-base font-medium rounded-md border-secondary transition uppercase"
+                                        >Blog</a
                                     >
                                 
                                 
@@ -1836,7 +1866,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                     <div class="flex flex-col space-y-2">
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="92" value="Exterior" id="contact-service-92" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="102" value="Exterior" id="contact-service-102" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Exterior
@@ -1844,7 +1874,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="93" value="Interior" id="contact-service-93" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="103" value="Interior" id="contact-service-103" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Interior
@@ -1921,25 +1951,25 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-92"
-                                                name="92"
+                                                id="contact-service-102"
+                                                name="102"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Exterior"
                                         />
-                                        <label for="contact-service-92" class="ml-3 text-sm text-gray-600">Exterior</label>
+                                        <label for="contact-service-102" class="ml-3 text-sm text-gray-600">Exterior</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-93"
-                                                name="93"
+                                                id="contact-service-103"
+                                                name="103"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Interior"
                                         />
-                                        <label for="contact-service-93" class="ml-3 text-sm text-gray-600">Interior</label>
+                                        <label for="contact-service-103" class="ml-3 text-sm text-gray-600">Interior</label>
                                     </div>
                                 
                                     
@@ -2220,9 +2250,9 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
               <p class="text-base text-gray-100">
                   Matthew Landscaping<br/>
                   
-                      930 s 4th st., Milwaukee, WI <br/>
+                      ,  <br/>
                   
-                  +14148402721
+                  2629574136
               </p>
               <div class="flex flex-wrap align-middle items-center">
                   
@@ -2337,6 +2367,14 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                   href="#service-area-section"
                                   class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
                                   >Milwaukee, WI</a
+                              >
+                          </li>
+                          
+                          <li>
+                              <a
+                                  href="#service-area-section"
+                                  class="p-1 text-base text-gray-100 rounded hover:text-gray-300 focus:ring-2 focus:outline-none ring-white ring-opacity-75"
+                                  >, </a
                               >
                           </li>
                           
