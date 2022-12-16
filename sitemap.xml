@@ -53,7 +53,14 @@
     </url>
 
     <url>
-        <loc>https://carolandscaping.com/service-Exterior-Painting</loc>
+        <loc>https://carolandscaping.com/service-Kitchen-and-Cabinet-RefinishinG</loc>
+        <lastmod>2022-12-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://carolandscaping.com/service-Exterior-Paintingg</loc>
         <lastmod>2022-12-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -61,13 +68,6 @@
 
     <url>
         <loc>https://carolandscaping.com/service-Interior-Painting</loc>
-        <lastmod>2022-12-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
-        <loc>https://carolandscaping.com/service-Kitchen-and-Cabinet-RefinishinG</loc>
         <lastmod>2022-12-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
